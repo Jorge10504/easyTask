@@ -20,4 +20,8 @@ export class UserComponent {
   get userName() {
     return this.selectedUser.name;
   }
+
+  onSelectUser() {
+    console.log("Clicked!");
+  }
 }
